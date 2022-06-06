@@ -88,11 +88,8 @@ nav .main-menu {
     transition: background-color, color;
 }
 
-/* Pesquisei sob submenus e acabei conhecendo o conceito 
-de menu dropdown, resolvi aplicá-lo aqui, embora não 
-tenha uma função geral nesse código, afinal, o objetivo 
-é direcioná-la para outra página com os pacotes 
-específicos. */
+/* Pesquisei sob submenus e acabei conhecendo o conceito de menu dropdown, resolvi aplicá-lo aqui, embora não 
+tenha uma função geral nesse código, afinal, o objetivo é direcioná-la para outra página com os pacotes específicos. */
 
 .dropdown {
     position: relative;
@@ -144,7 +141,7 @@ button:hover {
 /* Seção de apresentação */
 
 #presentation {
-    background-image: url(/img/background-trip.jpg);
+    background-image: url(./img/background-trip.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
