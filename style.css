@@ -296,7 +296,7 @@ button:hover {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #45525f 100%);
     opacity: 0.5;
 }
 
@@ -315,20 +315,24 @@ button:hover {
     background: #f6665b;
     width: 100%;
     height: 100%;
+    display: grid;
+    place-items: center; /* Alinha itens horizontal e verticalmente */
 }
 
-#reservation .reservation {
+/* #reservation .reservation {
     flex-direction: column;
     max-width: 1200px;
     padding: 10px 0;
-}
+} */
 
 #reservation .reservation-header h1 {
     margin-top: 0px;
 }
 
 #reservation .section-title{
-    margin-bottom: 50px;
+    margin-right: 20px;
+    display: grid;
+    place-items: center;
 }
 
 #reservation .reservation-forms {
@@ -510,7 +514,7 @@ input[type=text], input[type=email], input[type=number], input[type=date],  sele
 #contact {
     background-color: #f6665b;
     display: flex;
-    max-width: 1200px;
+    max-width: 100%;
     background-color: #f6665b;
     height: 270px;
     width: 100%;
